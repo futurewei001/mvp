@@ -14,9 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://technet-k8s.hds-cloudconnect.com:32000/#')
+WebUI.openBrowser('http://technet-k8s.hds-cloudconnect.com:32000/#')
 
 WebUI.verifyElementText(findTestObject('Page_Weather Application/h1_England'), 'England')
 
