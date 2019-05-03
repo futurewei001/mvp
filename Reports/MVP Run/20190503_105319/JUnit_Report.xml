@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MVP Run" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="MVP Run" tests="1" failures="0" errors="0" time="11" timestamp="2019-05-03 10:53:22" hostname="future.wei - TNNB1017.technet-asia.com" id="Test Suites/MVP Run">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\future.wei\\Katalon Studio\\MVP\\Reports\\MVP Run\\20190503_105319"/>
+         <property name="logFiles" value="C:\\Users\\future.wei\\Katalon Studio\\MVP\\Reports\\MVP Run\\20190503_105319\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="future.wei - TNNB1017.technet-asia.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="e02f71b1-39f4-486e-9541-67af5f259653"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/MVP weather" classname="Test Cases/MVP weather" status="PASSED">
+         <system-out><![CDATA[2019-05-03 10:53:22 - [TEST_CASE][PASSED] - Test Cases/MVP weather: Test Cases/MVP weather
+
+2019-05-03 10:53:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-03 10:53:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-03 10:53:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-03 10:53:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 10:53:30 - [TEST_STEP][PASSED] - navigateToUrl("http://technet-k8s.hds-cloudconnect.com:32000/#"): Navigate to 'http://technet-k8s.hds-cloudconnect.com:32000/#' successfully
+
+2019-05-03 10:53:31 - [MESSAGE][PASSED] - Navigate to 'http://technet-k8s.hds-cloudconnect.com:32000/#' successfully
+
+2019-05-03 10:53:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Weather Application/h1_England")): Object: 'Object Repository/Page_Weather Application/h1_England' is clicked on
+
+2019-05-03 10:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Weather Application/h1_England' is clicked on
+
+2019-05-03 10:53:32 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-03 10:53:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 10:53:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-03 10:53:22 - [TEST_SUITE][PASSED] - MVP Run: Test Cases/MVP weather]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

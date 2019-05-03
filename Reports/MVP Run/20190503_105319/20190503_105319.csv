@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MVP Run,Firefox 66.0,,,2019-05-03 10:53:22,2019-05-03 10:53:33,11.039s,PASSED
+,,,,,,,
+Test Cases/MVP weather,Firefox 66.0,,,2019-05-03 10:53:22,2019-05-03 10:53:33,10.609s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-03 10:53:23,2019-05-03 10:53:30,7.653s,PASSED
+"navigateToUrl(""http://technet-k8s.hds-cloudconnect.com:32000/#"")",Firefox 66.0,,,2019-05-03 10:53:30,2019-05-03 10:53:31,0.821s,PASSED
+"click(findTestObject(""Object Repository/Page_Weather Application/h1_England""))",Firefox 66.0,,,2019-05-03 10:53:31,2019-05-03 10:53:32,0.358s,PASSED
+assert true,Firefox 66.0,,,2019-05-03 10:53:32,2019-05-03 10:53:32,0.003s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-05-03 10:53:32,2019-05-03 10:53:33,1.216s,PASSED
