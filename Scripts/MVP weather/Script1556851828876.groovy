@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://www.google.com/')
+WebUI.openBrowser('https://127.0.0.1:8443')
 
 WebUI.verifyElementText(findTestObject('Page_Weather Application/h1_England'), 'England')
 
