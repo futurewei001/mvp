@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MVP Run,Firefox 67.0,,,2019-07-02 17:35:28,2019-07-02 17:35:57,29.288s,INCOMPLETE
+,,,,,,,
+Test Cases/MVP_weather_Testcase1,Firefox 67.0,,,2019-07-02 17:35:28,2019-07-02 17:35:39,11.224s,PASSED
+"openBrowser(""http://technet-k8s.hds-cloudconnect.com:32000/"")",Firefox 67.0,,,2019-07-02 17:35:28,2019-07-02 17:35:37,8.897s,PASSED
+"verifyElementText(findTestObject(""Page_Weather Application/h1_England""), ""England"")",Firefox 67.0,,,2019-07-02 17:35:37,2019-07-02 17:35:37,0.216s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-02 17:35:37,2019-07-02 17:35:39,1.720s,PASSED
+,,,,,,,
+Test Cases/MVP_weather_Testcase2,Firefox 67.0,,,2019-07-02 17:35:39,2019-07-02 17:35:47,7.597s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-02 17:35:39,2019-07-02 17:35:44,4.571s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Firefox 67.0,,,2019-07-02 17:35:44,2019-07-02 17:35:45,1.054s,PASSED
+maximizeWindow(),Firefox 67.0,,,2019-07-02 17:35:45,2019-07-02 17:35:45,0.304s,PASSED
+takeScreenshot(),Firefox 67.0,,,2019-07-02 17:35:45,2019-07-02 17:35:46,0.285s,PASSED
+"waitForImagePresent(findTestObject(""Object Repository/Page_Weather Application/TEST/Page_Google/img__hplogo""), 60)",Firefox 67.0,,,2019-07-02 17:35:46,2019-07-02 17:35:46,0.008s,NOT_RUN
+"verifyImagePresent(findTestObject(""Object Repository/Page_Weather Application/TEST/Page_Google/img__hplogo""), STOP_ON_FAILURE)",Firefox 67.0,,,2019-07-02 17:35:46,2019-07-02 17:35:47,1.122s,PASSED
+,,,,,,,
+Test Cases/MVP_weather_Testcase3,Firefox 67.0,,,2019-07-02 17:35:47,2019-07-02 17:35:57,10.121s,PASSED
+"openBrowser("""")",Firefox 67.0,,,2019-07-02 17:35:47,2019-07-02 17:35:53,6.117s,PASSED
+"navigateToUrl(""http://technet-k8s.hds-cloudconnect.com:32001/"")",Firefox 67.0,,,2019-07-02 17:35:53,2019-07-02 17:35:54,0.681s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/span_England_us""), 5)",Firefox 67.0,,,2019-07-02 17:35:54,2019-07-02 17:35:54,0.047s,PASSED
+"click(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/span_England_us""), STOP_ON_FAILURE)",Firefox 67.0,,,2019-07-02 17:35:54,2019-07-02 17:35:54,0.287s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/h1_United States of America""), 0)",Firefox 67.0,,,2019-07-02 17:35:54,2019-07-02 17:35:55,0.555s,PASSED
+"click(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/span_United States of America_fr""))",Firefox 67.0,,,2019-07-02 17:35:55,2019-07-02 17:35:55,0.308s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/h1_France""), 0)",Firefox 67.0,,,2019-07-02 17:35:55,2019-07-02 17:35:55,0.027s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/h1_France""), ""France"")",Firefox 67.0,,,2019-07-02 17:35:55,2019-07-02 17:35:55,0.055s,PASSED
+"click(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/span_France_en""))",Firefox 67.0,,,2019-07-02 17:35:55,2019-07-02 17:35:55,0.381s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/h1_England""), 0)",Firefox 67.0,,,2019-07-02 17:35:55,2019-07-02 17:35:56,0.037s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/h1_England""), ""England"")",Firefox 67.0,,,2019-07-02 17:35:56,2019-07-02 17:35:56,0.072s,PASSED
+closeBrowser(),Firefox 67.0,,,2019-07-02 17:35:56,2019-07-02 17:35:57,1.308s,PASSED

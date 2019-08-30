@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MVP Run,Chrome 75.0.3770.100,,,2019-07-02 17:28:19,2019-07-02 17:29:38,1m - 19.221s,INCOMPLETE
+,,,,,,,
+Test Cases/MVP_weather_Testcase1,Chrome 75.0.3770.100,,,2019-07-02 17:28:20,2019-07-02 17:28:27,7.410s,PASSED
+"openBrowser(""http://technet-k8s.hds-cloudconnect.com:32000/"")",Chrome 75.0.3770.100,,,2019-07-02 17:28:20,2019-07-02 17:28:26,6.025s,PASSED
+"verifyElementText(findTestObject(""Page_Weather Application/h1_England""), ""England"")",Chrome 75.0.3770.100,,,2019-07-02 17:28:26,2019-07-02 17:28:26,0.171s,PASSED
+closeBrowser(),Chrome 75.0.3770.100,,,2019-07-02 17:28:26,2019-07-02 17:28:27,0.838s,PASSED
+,,,,,,,
+Test Cases/MVP_weather_Testcase2,Chrome 75.0.3770.100,,,2019-07-02 17:28:27,2019-07-02 17:29:32,1m - 5.237s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.100,,,2019-07-02 17:28:27,2019-07-02 17:28:30,2.491s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Chrome 75.0.3770.100,,,2019-07-02 17:28:30,2019-07-02 17:28:30,0.818s,PASSED
+takeScreenshot(),Chrome 75.0.3770.100,,,2019-07-02 17:28:30,2019-07-02 17:28:31,0.497s,PASSED
+"waitForImagePresent(findTestObject(""Object Repository/Page_Weather Application/TEST/Page_Google/img__hplogo""), 60)",Chrome 75.0.3770.100,,,2019-07-02 17:28:31,2019-07-02 17:29:32,1m - 1.167s,FAILED
+,,,,,,,
+Test Cases/MVP_weather_Testcase3,Chrome 75.0.3770.100,,,2019-07-02 17:29:32,2019-07-02 17:29:38,6.129s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.100,,,2019-07-02 17:29:32,2019-07-02 17:29:36,3.448s,PASSED
+"navigateToUrl(""http://technet-k8s.hds-cloudconnect.com:32001/"")",Chrome 75.0.3770.100,,,2019-07-02 17:29:36,2019-07-02 17:29:37,0.867s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/span_England_us""), 5)",Chrome 75.0.3770.100,,,2019-07-02 17:29:37,2019-07-02 17:29:37,0.056s,PASSED
+"click(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/span_England_us""), STOP_ON_FAILURE)",Chrome 75.0.3770.100,,,2019-07-02 17:29:37,2019-07-02 17:29:37,0.161s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/h1_United States of America""), 0)",Chrome 75.0.3770.100,,,2019-07-02 17:29:37,2019-07-02 17:29:37,0.049s,PASSED
+"click(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/span_United States of America_fr""))",Chrome 75.0.3770.100,,,2019-07-02 17:29:37,2019-07-02 17:29:37,0.109s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/h1_France""), 0)",Chrome 75.0.3770.100,,,2019-07-02 17:29:37,2019-07-02 17:29:37,0.031s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/h1_France""), ""France"")",Chrome 75.0.3770.100,,,2019-07-02 17:29:37,2019-07-02 17:29:38,1.023s,FAILED

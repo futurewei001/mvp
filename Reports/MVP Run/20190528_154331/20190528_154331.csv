@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MVP Run,Firefox 66.0,,,2019-05-28 15:43:37,2019-05-28 15:44:00,23.148s,FAILED
+,,,,,,,
+Test Cases/MVP weather,Firefox 66.0,,,2019-05-28 15:43:38,2019-05-28 15:43:58,20.678s,FAILED
+"openBrowser(""https://127.0.0.1:8443"")",Firefox 66.0,,,2019-05-28 15:43:39,2019-05-28 15:43:58,19.380s,FAILED

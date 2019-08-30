@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>MVP weather</name>
+   <name>MVP_weather_Testcase2</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>484e8a98-35b6-44ac-a22b-abcee8d21168</testCaseGuid>
+   <testCaseGuid>825817d0-d8c4-430b-8127-e02dc9a71b73</testCaseGuid>
 </TestCaseEntity>

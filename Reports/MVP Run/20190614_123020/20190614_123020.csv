@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MVP Run,Chrome 75.0.3770.80,,,2019-06-14 12:30:23,2019-06-14 12:30:41,18.172s,INCOMPLETE
+,,,,,,,
+Test Cases/MVP weather Testcase1,Chrome 75.0.3770.80,,,2019-06-14 12:30:24,2019-06-14 12:30:32,8.626s,PASSED
+"openBrowser(""http://technet-k8s.hds-cloudconnect.com:32000/"")",Chrome 75.0.3770.80,,,2019-06-14 12:30:24,2019-06-14 12:30:31,6.772s,PASSED
+"verifyElementText(findTestObject(""Page_Weather Application/h1_England""), ""England"")",Chrome 75.0.3770.80,,,2019-06-14 12:30:31,2019-06-14 12:30:31,0.345s,PASSED
+closeBrowser(),Chrome 75.0.3770.80,,,2019-06-14 12:30:31,2019-06-14 12:30:32,1.001s,PASSED
+,,,,,,,
+Test Cases/MVP weather Testcase2,Chrome 75.0.3770.80,,,2019-06-14 12:30:32,2019-06-14 12:30:37,4.578s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.80,,,2019-06-14 12:30:33,2019-06-14 12:30:35,2.573s,PASSED
+"navigateToUrl(""http://technet-k8s.hds-cloudconnect.com:32000/#"")",Chrome 75.0.3770.80,,,2019-06-14 12:30:35,2019-06-14 12:30:36,0.566s,PASSED
+"verifyElementText(findTestObject(""Page_Weather Application/a_Weather App""), ""Weather App"")",Chrome 75.0.3770.80,,,2019-06-14 12:30:36,2019-06-14 12:30:36,0.119s,PASSED
+closeBrowser(),Chrome 75.0.3770.80,,,2019-06-14 12:30:36,2019-06-14 12:30:37,0.917s,PASSED
+,,,,,,,
+Test Cases/MVP weather Testcase3,Chrome 75.0.3770.80,,,2019-06-14 12:30:37,2019-06-14 12:30:41,4.534s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.80,,,2019-06-14 12:30:37,2019-06-14 12:30:40,2.649s,PASSED
+"navigateToUrl(""http://technet-k8s.hds-cloudconnect.com:32000/#"")",Chrome 75.0.3770.80,,,2019-06-14 12:30:40,2019-06-14 12:30:40,0.529s,PASSED
+"verifyElementText(findTestObject(""Page_Weather Application/a_Weather App""), ""Weather App"")",Chrome 75.0.3770.80,,,2019-06-14 12:30:40,2019-06-14 12:30:40,0.146s,PASSED
+closeBrowser(),Chrome 75.0.3770.80,,,2019-06-14 12:30:40,2019-06-14 12:30:41,0.961s,PASSED

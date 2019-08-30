@@ -12,11 +12,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://127.0.0.1:8443')
-
-WebUI.verifyElementText(findTestObject('Page_Weather Application/h1_England'), 'England')
-
-WebUI.closeBrowser()
+Mobile.verifyElementText(findTestObject('HelloWorld/android.widget.TextView1 - Hello world'), 'Hello world!')
 
