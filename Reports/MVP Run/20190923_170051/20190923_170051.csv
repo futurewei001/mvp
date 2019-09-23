@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MVP Run,Firefox 68.0,,,2019-09-23 17:01:08,2019-09-23 17:02:47,1m - 38.734s,INCOMPLETE
+,,,,,,,
+Test Cases/MVP_weather_Testcase1,Firefox 68.0,,,2019-09-23 17:01:11,2019-09-23 17:02:09,57.983s,PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-09-23 17:01:13,2019-09-23 17:02:04,51.322s,PASSED
+"navigateToUrl(""http://weather-app-dev.13.94.25.165.nip.io/"")",Firefox 68.0,,,2019-09-23 17:02:04,2019-09-23 17:02:07,2.963s,PASSED
+"waitForElementPresent(findTestObject(""Page_Weather Application/Page_Weather Application/h1_England""), 0)",Firefox 68.0,,,2019-09-23 17:02:07,2019-09-23 17:02:08,0.957s,PASSED
+"verifyElementText(findTestObject(""Page_Weather Application/h1_England""), ""England"")",Firefox 68.0,,,2019-09-23 17:02:08,2019-09-23 17:02:09,0.815s,PASSED
+,,,,,,,
+Test Cases/MVP_weather_Testcase2,Firefox 68.0,,,2019-09-23 17:02:09,2019-09-23 17:02:47,38.309s,FAILED
+"openBrowser("""")",Firefox 68.0,,,2019-09-23 17:02:10,2019-09-23 17:02:40,30.185s,PASSED
+"navigateToUrl(""http://weather-app-dev.13.94.25.165.nip.io/"")",Firefox 68.0,,,2019-09-23 17:02:40,2019-09-23 17:02:42,2.127s,PASSED
+"click(findTestObject(""Object Repository/Page_Weather Application/Page_Weather Application/span_France_en""))",Firefox 68.0,,,2019-09-23 17:02:42,2019-09-23 17:02:45,2.243s,PASSED
+"waitForElementPresent(findTestObject(""Page_Weather Application/Page_Weather Application/h1_France""), 0)",Firefox 68.0,,,2019-09-23 17:02:45,2019-09-23 17:02:47,2.246s,FAILED

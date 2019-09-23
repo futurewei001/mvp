@@ -13,5 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.verifyElementText(findTestObject('HelloWorld/android.widget.TextView1 - Hello world'), 'Hello world!')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://weather-app-dev.13.94.25.165.nip.io/')
+
+WebUI.waitForElementPresent(findTestObject('Page_Weather Application/Page_Weather Application/h1_England'), 0)
+
+WebUI.verifyElementText(findTestObject('Page_Weather Application/h1_England'), 'England')
 

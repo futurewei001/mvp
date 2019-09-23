@@ -12,9 +12,23 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.google.com/')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://weather-app-dev.13.94.25.165.nip.io/')
+
+WebUI.click(findTestObject('Object Repository/Page_Weather Application/Page_Weather Application/span_France_en'))
+
+WebUI.waitForElementPresent(findTestObject('Page_Weather Application/Page_Weather Application/h1_France'), 0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Weather Application/Page_Weather Application/h1_France'), 
+    'France')
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Weather Application/Page_Weather Application/h1_England'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Weather Application/Page_Weather Application/h1_England'), 
+    'England')
 
 WebUI.closeBrowser()
 
