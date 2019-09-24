@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='us']</value>
+         <value>//span[@id='en']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

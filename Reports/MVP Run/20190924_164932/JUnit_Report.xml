@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="MVP Run" time="22" tests="1" failures="1" errors="0">
+    <testsuite name="MVP Run" tests="1" failures="1" errors="0" time="22" timestamp="2019-09-24 16:49:37" hostname="future.wei - TNNB1017.technet-asia.com" id="Test Suites/MVP Run">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\future.wei\\Katalon Studio\\MVP\\Reports\\MVP Run\\20190924_164932"/>
+            <property name="logFiles" value="C:\\Users\\future.wei\\Katalon Studio\\MVP\\Reports\\MVP Run\\20190924_164932\\execution0.log"/>
+            <property name="attachments" value="C:\\Users\\future.wei\\Katalon Studio\\MVP\\Reports\\MVP Run\\20190924_164932\\1569314999612.png, C:\\Users\\future.wei\\Katalon Studio\\MVP\\Reports\\MVP Run\\20190924_164932\\1569314999906.png"/>
+            <property name="hostName" value="future.wei - TNNB1017.technet-asia.com"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Firefox 68.0"/>
+            <property name="hostAddress" value="192.168.56.1"/>
+            <property name="sessionId" value="3af19c6d-5624-4f3d-8957-1a5696c494b2"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 7"/>
+        </properties>
+        <testcase name="Test Cases/MVP_weather_Testcase1" classname="Test Cases/MVP_weather_Testcase1" status="PASSED">
+            <system-out>2019-09-24 16:49:37 - [TEST_CASE][PASSED] - Test Cases/MVP_weather_Testcase1: Test Cases/MVP_weather_Testcase1&#xD;
+&#xD;
+2019-09-24 16:49:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-24 16:49:39 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-09-24 16:49:39 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-09-24 16:49:49 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-24 16:49:49 - [TEST_STEP][PASSED] - navigateToUrl("http://weather-app-dev.13.94.25.165.nip.io/"): Navigate to 'http://weather-app-dev.13.94.25.165.nip.io/' successfully&#xD;
+&#xD;
+2019-09-24 16:49:50 - [MESSAGE][PASSED] - Navigate to 'http://weather-app-dev.13.94.25.165.nip.io/' successfully&#xD;
+&#xD;
+2019-09-24 16:49:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Weather Application/Page_Weather Application/h1_England"), 0): Object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_England' is present&#xD;
+&#xD;
+2019-09-24 16:49:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-24 16:49:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_England' is present&#xD;
+&#xD;
+2019-09-24 16:49:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Weather Application/h1_England"), "England"): Actual text and expected text of test object 'Object Repository/Page_Weather Application/h1_England' are matched.&#xD;
+&#xD;
+2019-09-24 16:49:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Weather Application/h1_England' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/MVP_weather_Testcase2" classname="Test Cases/MVP_weather_Testcase2" status="FAILED">
+            <failure type="FAILED" message="Test Cases/MVP_weather_Testcase2 FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' FAILED.&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)&#xD;&#xA;&#x9;at MVP_weather_Testcase2.run(MVP_weather_Testcase2:24)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1569314972926.run(TempTestSuite1569314972926.groovy:35)&#xD;&#xA;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'England' and expected text 'France' of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' are NOT matched.&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-09-24 16:49:51 - [TEST_CASE][FAILED] - Test Cases/MVP_weather_Testcase2: Test Cases/MVP_weather_Testcase2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' FAILED.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)&#xD;
+	at MVP_weather_Testcase2.run(MVP_weather_Testcase2:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1569314972926.run(TempTestSuite1569314972926.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'England' and expected text 'France' of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-09-24 16:49:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-24 16:49:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-09-24 16:49:53 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-09-24 16:49:58 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-09-24 16:49:58 - [TEST_STEP][PASSED] - navigateToUrl("http://weather-app-dev.13.94.25.165.nip.io/"): Navigate to 'http://weather-app-dev.13.94.25.165.nip.io/' successfully&#xD;
+&#xD;
+2019-09-24 16:49:59 - [MESSAGE][PASSED] - Navigate to 'http://weather-app-dev.13.94.25.165.nip.io/' successfully&#xD;
+&#xD;
+2019-09-24 16:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Weather Application/Page_Weather Application/span_France_en")): Object: 'Object Repository/Page_Weather Application/Page_Weather Application/span_France_en' is clicked on&#xD;
+&#xD;
+2019-09-24 16:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Weather Application/Page_Weather Application/span_France_en' is clicked on&#xD;
+&#xD;
+2019-09-24 16:49:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Weather Application/Page_Weather Application/h1_France"), 0): Object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' is present&#xD;
+&#xD;
+2019-09-24 16:49:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'&#xD;
+&#xD;
+2019-09-24 16:49:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' is present&#xD;
+&#xD;
+2019-09-24 16:49:59 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_Weather Application/Page_Weather Application/h1_France"), "France"): Verify element text of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' FAILED.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)&#xD;
+	at MVP_weather_Testcase2.run(MVP_weather_Testcase2:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1569314972926.run(TempTestSuite1569314972926.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'England' and expected text 'France' of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+)&#xD;
+&#xD;
+2019-09-24 16:49:59 - [MESSAGE][FAILED] - Actual text 'England' and expected text 'France' of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'England' and expected text 'France' of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)&#xD;
+	at MVP_weather_Testcase2.run(MVP_weather_Testcase2:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1569314972926.run(TempTestSuite1569314972926.groovy:35)&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\future.wei\\Katalon Studio\\MVP\\Reports\\MVP Run\\20190924_164932\\1569314999612.png]]&#xD;
+&#xD;
+2019-09-24 16:50:00 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' FAILED.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)&#xD;
+	at MVP_weather_Testcase2.run(MVP_weather_Testcase2:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1569314972926.run(TempTestSuite1569314972926.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'England' and expected text 'France' of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\future.wei\\Katalon Studio\\MVP\\Reports\\MVP Run\\20190924_164932\\1569314999906.png]]</system-out>
+            <system-err>2019-09-24 16:49:51 - [TEST_CASE][FAILED] - Test Cases/MVP_weather_Testcase2: Test Cases/MVP_weather_Testcase2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' FAILED.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)&#xD;
+	at MVP_weather_Testcase2.run(MVP_weather_Testcase2:24)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1569314972926.run(TempTestSuite1569314972926.groovy:35)&#xD;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'England' and expected text 'France' of test object 'Object Repository/Page_Weather Application/Page_Weather Application/h1_France' are NOT matched.&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2019-09-24 16:49:37 - [TEST_SUITE][INCOMPLETE] - MVP Run: null</system-out>
+        <system-err>2019-09-24 16:49:37 - [TEST_SUITE][INCOMPLETE] - MVP Run: null</system-err>
+    </testsuite>
+</testsuites>

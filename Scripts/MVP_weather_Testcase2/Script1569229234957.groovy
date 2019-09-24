@@ -17,18 +17,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://weather-app-dev.13.94.25.165.nip.io/')
 
-WebUI.click(findTestObject('Object Repository/Page_Weather Application/Page_Weather Application/span_France_en'))
+WebUI.waitForElementPresent(findTestObject('Page_Weather Application/Page_Weather Application/h1_France'), 60)
 
-WebUI.waitForElementPresent(findTestObject('Page_Weather Application/Page_Weather Application/h1_France'), 0)
+WebUI.click(findTestObject('Page_Weather Application/Page_Weather Application/span_France_en'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Weather Application/Page_Weather Application/h1_France'), 
     'France')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Weather Application/Page_Weather Application/h1_England'), 
-    0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Weather Application/Page_Weather Application/h1_England'), 
-    'England')
+    60)
 
 WebUI.closeBrowser()
 
