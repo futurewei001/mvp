@@ -11,15 +11,15 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>d8fdae81-35a5-4947-975b-820c4a96d575</testSuiteGuid>
    <testCaseLink>
-      <guid>7b329fe7-104e-4fb7-a6ac-d3021e71e165</guid>
+      <guid>bc0e9ef0-8ba3-4428-a550-60070777f52f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MVP_weather_Testcase1</testCaseId>
+      <testCaseId>Test Cases/Test can change to show France Weather</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8788fe17-dc5c-4a79-bf21-b07a91e4f6fd</guid>
+      <guid>aa458859-4704-471f-becb-5ad2ffda3568</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MVP_weather_Testcase2</testCaseId>
+      <testCaseId>Test Cases/Test display England Weather</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -13,8 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-System.setProperty('webdriver.gecko.driver', '/usr/local/bin/geckodriver')
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://weather-app-dev.13.94.25.165.nip.io/')

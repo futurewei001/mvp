@@ -17,7 +17,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://weather-app-dev.13.94.25.165.nip.io/')
 
-WebUI.waitForElementPresent(findTestObject('Page_Weather Application/Page_Weather Application/h1_England'), 0)
+WebUI.waitForElementPresent(findTestObject('Page_Weather Application/Page_Weather Application/h1_England'), 60)
 
 WebUI.verifyElementText(findTestObject('Page_Weather Application/h1_England'), 'England')
+
+WebUI.closeBrowser()
 
